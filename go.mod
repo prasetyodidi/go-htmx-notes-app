@@ -1,4 +1,4 @@
-module github.com/prasetyodidi/golang-notes-app
+module github.com/prasetyodidi/go-htmx-notes-app
 
 go 1.21.4
 
