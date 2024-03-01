@@ -1,0 +1,17 @@
+@startuml "Database Notes App"
+
+entity notes {
+    id ulid
+    --
+    user_id uuid
+    name varchar(250)
+    --
+    content text
+    created_at datetime
+    --
+    updated_at datetime
+    --
+    deleted_at datetime
+}
+
+@enduml
